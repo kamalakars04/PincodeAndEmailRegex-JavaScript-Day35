@@ -1,5 +1,6 @@
 // UC 1 Validate the first mandatory part
-let emailRegex = RegExp("^[a-zA-Z]{3}");
+// UC 2 Ensure @ and validate second mandatory part
+let emailRegex = RegExp("^[a-zA-Z]{3,}[@][0-9a-zA-Z]{1,}");
 let emial;
 
 function validateEmail(input)

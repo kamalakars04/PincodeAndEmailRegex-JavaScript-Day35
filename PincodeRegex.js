@@ -1,5 +1,5 @@
 // Write regular expression to validate pin of six digit
-let pincodeRegex = RegExp("^[0-9]{6}$");
+let pincodeRegex = RegExp("[0-9]{6}");
 let pincode;
 
 function validatePincode(input)
